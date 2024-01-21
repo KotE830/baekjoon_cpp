@@ -1,14 +1,12 @@
 #include <iostream>
-#include <vector>
 
 using namespace std;
 
 int main() {
-    vector<int> v(100, 0);
-    vector<vector<int>> paper(100, v);
-
     int n, area = 0;
     cin >> n;
+
+    int paper[100][100] = { 0 };
 
     while (n--) {
         int x, y;
