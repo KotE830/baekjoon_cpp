@@ -32,6 +32,5 @@
 *.app
 
 
-main.cpp
 test.cpp
 .vscode/*
