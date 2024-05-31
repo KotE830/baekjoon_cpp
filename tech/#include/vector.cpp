@@ -31,5 +31,7 @@ int main() {
 
     sort(v.begin(), v.end());
 
+    v.clear();
+
     return 0;
 }
