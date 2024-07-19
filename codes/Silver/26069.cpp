@@ -7,11 +7,11 @@ int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int n, i, result = 0;
+    int n;
     cin >> n;
 
     set<string> dance{"ChongChong"};
-    for (i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) {
         string s1, s2;
         cin >> s1 >> s2;
         if (dance.find(s1) != dance.end()) {
