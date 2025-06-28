@@ -1,5 +1,3 @@
-// 홀수만 더하기
-
 #include <iostream>
 
 using namespace std;
